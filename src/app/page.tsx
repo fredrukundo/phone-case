@@ -1,6 +1,7 @@
 import Image from "next/image";
 import MaxWidthWrapper from "@/components/MaxWidthWrapper";
 import {ArrowRight, Check, Star  } from "lucide-react";
+import Phone from "@/components/Phone";
 
 export default function Home() {
   return (
@@ -96,7 +97,7 @@ export default function Home() {
                 src='/line.png'
                 className='absolute w-20 -left-6 -bottom-6 select-none'
               />
-              {/* <Phone className='w-64' imgSrc='/testimonials/1.jpg' /> */}
+              <Phone className='w-64' imgSrc='/testimonials/1.jpg' />
             </div>
           </div>
 
